@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Crowd Funding</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a class="my-logo" href="#">Medical Crowdfund</a>
+      <nav>
+        <div class="burger" id="open-navigation" onclick="openNav ()">
+          <i class="fa fa-bars"></i>
+        </div>
+        <div class="navigation-desktop">
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#portfolio-section" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about-myself-section" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact-section" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- mobile-menu -->
+    <div class="mobile-menu hidden" id="newCloseTag">
+      <div class="mobile-menu-container">
+        <div id="close-navigation" class="close-btn" onclick="closeNav()">
+          <i class="fas fa-times"></i>
+        </div>
+        <!-- Content of the mobile menu -->
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-list-items" onclick="closeNav()">
+            <a href="#portfolio-section" class="newNavLinks">Portfolio</a>
+          </li>
+          <li class="mobile-menu-list-items" onclick="closeNav()">
+            <a href="#about-myself-section" class="newNavLinks">About</a>
+          </li>
+          <li class="mobile-menu-list-items" onclick="closeNav()">
+            <a href="#contact-section" class="newNavLinks">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- mobile-menu END-->
+
+    <!-- Hero Section Starts -->
+    <section id="portfolio-section" class="hero">
+      <div class="pro-card">
+        <h1 class="greeting">
+          I'm Zerihun. <br />
+          Glad to see you!
+        </h1>
+
+        <p class="job-description">
+          "Empowering individuals to support medical causes through
+          crowdfunding, making healthcare accessible for all."
+        </p>
+      </div>
+      <h2 class="connect-link">LET'S CONNECT</h2>
+      <div class="social-media-links">
+        <ul>
+          <li>
+            <a href="https://twitter.com/zerihunabune"
+              ><img src="assets/images/twitter-logo.png" alt="twitter-logo"
+            /></a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/zerihun-abune-4bb11b196/"
+              ><img src="assets/images/Linkedin icon.png" alt="linkedin-logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/images/medium-icon.png" alt="medium-icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://github.com/znation2010/Medical-CrowdFunding">
+              <img src="assets/images/github-logo.png" alt="github-logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="assets/images/angel-list-logo.png"
+                alt="angel-list-logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <a href="https://your-project-url.com" target="_blank">
+        <button
+          style="
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          "
+        >
+          visit us
+        </button>
+      </a>
+    </section>
+    <!-- Hero Section Ends -->
+    <!-- Work Section Start -->
+    <section class="works">
+      <div class="cards">
+        <div class="left-card-img">
+          <img
+            class="snapshoots"
+            src="assets/images/help.jpeg"
+            alt="Snapshoot svg"
+          />
+        </div>
+        <div class="cards-description desc-right">
+          <h2 class="card-titles">Children Crowd Funding</h2>
+          <div class="subheading-lists">
+            <span id="canopy">&heartsuit; Children</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">Established</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">2015</span>
+          </div>
+          <section class="card-content">
+            <p>
+              Children Crowd Funding focuses on providing financial support for
+              pediatric medical treatments, surgeries, therapies, or other
+              healthcare needs.
+            </p>
+          </section>
+          <ul>
+            <li class="webdev-languages">Campaign</li>
+            <li class="webdev-languages">Donation</li>
+            <li class="webdev-languages">Fundraising</li>
+          </ul>
+          <button class="see-project" type="button">See project</button>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="right-card-img">
+          <img
+            class="snapshoots"
+            src="assets/snapshoots/Snapshoot Portfolio-4.svg"
+            alt="Snapshoot svg"
+          />
+        </div>
+        <div class="cards-description desc-left">
+          <h2 class="card-titles">Care For elders</h2>
+          <div>
+            <span id="canopy">Care For elders</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">Est.</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">2015</span>
+          </div>
+          <section class="card-content">
+            <p>
+              Caring for elders is an important responsibility that involves
+              providing physical, emotional, and social support to ensure their
+              well-being and quality of life.
+            </p>
+          </section>
+          <ul>
+            <li class="webdev-languages">Campaign</li>
+            <li class="webdev-languages">Donation</li>
+            <li class="webdev-languages">Fundraising</li>
+          </ul>
+          <button class="see-project" type="button">See project</button>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="left-card-img">
+          <img
+            class="snapshoots"
+            src="assets/snapshoots/Snapshoot Portfolio.svg"
+            alt="Snapshoot svg"
+          />
+        </div>
+        <div class="cards-description desc-right">
+          <h2 class="card-titles">Medical Funding</h2>
+          <div class="subheading-lists">
+            <span id="canopy">Medical</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">Est.</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">2015</span>
+          </div>
+          <section class="card-content">
+            <p>
+              Exploring the future of care in Medical's first Virtual Reality
+              <br />app; a place to discover and enjoy helping and caring for
+              patients online on <br />Gear VR.
+            </p>
+          </section>
+          <ul>
+            <li class="webdev-languages">Campaign</li>
+            <li class="webdev-languages">Donation</li>
+            <li class="webdev-languages">Fundraising</li>
+          </ul>
+          <button class="see-project" type="button">See project</button>
+        </div>
+      </div>
+      <div class="cards left-side">
+        <div class="right-card-img">
+          <img
+            class="snapshoots right-side"
+            src="assets/snapshoots/Snapshoot Portfolio-2.svg"
+            alt="Snapshoot svg"
+          />
+        </div>
+        <div class="cards-description desc-left">
+          <h2 class="card-titles">24/7 Available</h2>
+          <div class="subheading-lists">
+            <span id="canopy">Website</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">Lead Staff</span>
+            <img src="assets/icons/circle-icon.svg" alt="circlular icon" />
+            <span class="subheading-list-title">2018</span>
+          </div>
+          <section class="card-content">
+            <p>
+              A smart assistant to make accessible more safe, efficient, and fun
+              by unlocking your most expensive computer: your healthcare.
+            </p>
+          </section>
+          <ul>
+            <li class="webdev-languages">Campaign</li>
+            <li class="webdev-languages">Donation</li>
+            <li class="webdev-languages">Fundraising</li>
+          </ul>
+          <button class="see-project" type="button">See project</button>
+        </div>
+      </div>
+    </section>
+    <!-- Work section end -->
+    <!-- About myself starts -->
+    <section id="about-myself-section" class="about-myself">
+      <div class="about-content">
+        <div class="pro-card">
+          <h2 class="greeting">About Myself</h2>
+          <div class="job-description">
+            <p>
+              As a caregiver, I witnessed firsthand the financial challenges
+              faced by individuals and families dealing with medical crises. It
+              was heart-wrenching to see people struggling to access life-saving
+              treatments or necessary medical procedures due to financial
+              constraints. Witnessing the impact that financial burdens had on
+              their well-being inspired me to take action and find a solution.
+            </p>
+          </div>
+        </div>
+        <h2 class="connect-link">LET'S CONNECT</h2>
+        <div class="social-media-links">
+          <ul>
+            <li>
+              <a href="https://twitter.com/zerihunabune"
+                ><img src="assets/images/twitter-logo.png" alt="twitter-logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/zerihun-abune-4bb11b196/"
+                ><img src="assets/images/Linkedin icon.png" alt="linkedin-logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="assets/images/medium-icon.png" alt="medium-icon"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/znation2010/Medical-CrowdFunding">
+                <img src="assets/images/github-logo.png" alt="github-logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="assets/images/angel-list-logo.png"
+                  alt="angel-list-logo"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <button class="my-resume" type="button">Get my resume</button>
+      </div>
+      <div class="main-list">
+        <div class="lang-lists">
+          <ul class="aboutme-list">
+            <li class="list-title">
+              <h4>Languages</h4>
+            </li>
+            <li class="list-title">
+              <img
+                class="programming-lang-img"
+                src="assets/icons/dropdown-icon.png"
+                alt="dropdown arrow"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <ul class="programming--lang">
+          <li class="web-lang">
+            <img
+              class="lang-img"
+              src="assets/icons/js-icon.svg"
+              alt="javascript icon"
+            />
+            <h5>Javascript</h5>
+          </li>
+          <li class="web-lang">
+            <img
+              class="lang-img"
+              src="assets/icons/html-icon.svg"
+              alt="html icon"
+            />
+            <h5>HTML</h5>
+          </li>
+          <li class="web-lang">
+            <img
+              class="lang-img"
+              src="assets/icons/css-icon.svg"
+              alt="css icon"
+            />
+            <h5>CSS</h5>
+          </li>
+        </ul>
+
+        <div class="skills-main">
+          <ul class="lists">
+            <li><h4>Frameworks</h4></li>
+            <li>
+              <img
+                class="programming-lang-img"
+                src="assets/icons/expand-icon.png"
+                alt="list expander"
+              />
+            </li>
+          </ul>
+
+          <ul class="lists">
+            <li><h4>Skills</h4></li>
+            <li>
+              <img
+                class="programming-lang-img"
+                src="assets/icons/expand-icon.png"
+                alt="list expander"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- About myself section ends -->
+    <!---  Contact-me Form  -->
+    <section id="contact-section" class="footer-container" id="footer-id">
+      <section class="contact-me">
+        <div>
+          <h2 class="contact-me-header">Contact me</h2>
+          <p class="contact-me-message">
+            If you have an application you are interested in developing, a
+            feature that you need built or a project that needs coding. I'd love
+            to help with it!
+          </p>
+          <form
+            action="https://formspree.io/f/xzbqoenk"
+            method="post"
+            class="my-contact-form"
+            id="myForm"
+          >
+            <input
+              type="text"
+              class="form-elements"
+              name="username"
+              id="username"
+              maxlength="30"
+              placeholder="Peter Parker"
+              required
+            />
+            <input
+              type="email"
+              class="form-elements"
+              name="email"
+              id="email"
+              placeholder="Peterparker@gmail.com"
+              required
+            />
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Write your message here"
+              maxlength="500"
+              required
+            ></textarea>
+            <button class="get-in-touch-btn" type="submit">Get In Touch</button>
+            <div class="displayer">
+              <p id="error-message" class="hiddenMsg">
+                Hi, <span>Dear</span> your email must be in lowercase check it
+                again
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </section>
+
+    <script src="javaScript/Running.js"></script>
+  </body>
+</html>
